@@ -23,6 +23,20 @@ def result():
     Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
     Label(root, text='\n\n\n\n\n\n\nYour score is',fg='black',font='Times 22').pack(side=TOP,anchor=CENTER)
     Label(root, text='\n'+str(num),fg='black',font='Times 24 bold').pack(side=TOP,anchor=CENTER)
+    root=Tk()
+    root.attributes('-fullscreen',True)
+    shortcutbar = Frame(root, height=30, bg='light blue')
+    toolbar = Label(shortcutbar, text='Quiz Test',bg='black',fg='white',height=2,font='CalibriLight 12 bold')
+    toolbar.pack(side=TOP,fill=X,expand=YES)
+    shortcutbar.pack(expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root, text='\n\n\n\n\n\n\nYour score is',fg='black',font='Times 22').pack(side=TOP,anchor=CENTER)
+    Label(root, text='\n'+str(num),fg='black',font='Times 24 bold').pack(side=TOP,anchor=CENTER)
     def counter_label(label):
         def count():
             global cntr
