@@ -8,6 +8,7 @@ y=00
 cntr=0
 
 #**********************************************************************************************************************************************************************
+#ajsncsvnfdkbndfnbdfnb
 def result():
     root=Tk()
     root.attributes('-fullscreen',True)
@@ -15,6 +16,9 @@ def result():
     toolbar = Label(shortcutbar, text='Quiz Test',bg='black',fg='white',height=2,font='CalibriLight 12 bold')
     toolbar.pack(side=TOP,fill=X,expand=YES)
     shortcutbar.pack(expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
+    Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
     Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
     Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
     Label(root,text=" ").pack(side=TOP,expand=NO, fill=X)
@@ -134,6 +138,8 @@ def ques5even():
     toolbar = Label(shortcutbar, text='Quiz Test',bg='black',fg='white',height=2,font='CalibriLight 12 bold')
     toolbar.pack(side=TOP,fill=X,expand=YES)
     shortcutbar.pack(expand=NO, fill=X)
+    social_bar = 0
+    social_bar = 1
     
     def counter_label(label):
         def count():
